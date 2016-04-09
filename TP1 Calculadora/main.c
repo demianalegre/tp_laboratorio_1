@@ -27,7 +27,14 @@ int main()
         printf("8- Calcular todas las operaciones\n");
         printf("9- Salir\n");
 
-        scanf("%d",&opcion);
+        gets(auxnumerostr);
+        while(!ValidarNumerico(auxnumerostr))
+        {
+                printf("Error, el numero debe ser mayor o igual a 0.Ingrese opcion: ");
+                gets(auxnumerostr);
+        }
+        auxnumero=atoi(auxnumerostr);
+        opcion=auxnumero;
 
         switch(opcion)
         {
@@ -81,6 +88,9 @@ int main()
             break;
         case 9:
             seguir= 'n';
+            break;
+        default:
+            printf("\nCaso incorrecto\n");
             break;
         }
     }
