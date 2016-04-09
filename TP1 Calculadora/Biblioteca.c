@@ -90,6 +90,12 @@ int Factorial(float a)
     return respuesta;
 }
 
+/* La funcion ValidarNumerico pide una cadena de char,
+valida que dentro de esa cadena solo haya numeros
+para impedir que el usuario ingrese letras o cualquier
+otra cosa, la funcion devuelve un 1 o un 0.
+*/
+
 int ValidarNumerico(char str[])
 {
     int i= 0;

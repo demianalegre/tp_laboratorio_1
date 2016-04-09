@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1460033049 source:d:\tp1 calculadora\main.c
+1460119704 source:d:\tp1 calculadora\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Funciones.h"
 	<string.h>
 
-1460032873 source:d:\tp1 calculadora\biblioteca.c
+1460097010 source:d:\tp1 calculadora\biblioteca.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
